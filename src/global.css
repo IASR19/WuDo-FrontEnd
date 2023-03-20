@@ -1,0 +1,21 @@
+:root{
+  --white: #fff;
+  --purple: #27024a;
+  --yellow: #e5b900;
+  --gray: #e1e1e6;
+  --black: #000;
+  --grey: #c0c0c0;
+  --cloud: #fffafa;
+  --red: #F75A68
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Inter', sans-serif;
+}

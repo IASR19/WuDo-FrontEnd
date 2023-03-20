@@ -1,0 +1,142 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.header span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding-top: 15px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.inputContainer label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15px;
+  margin-bottom: 8px;
+}
+
+.inputContainer input, .inputContainer textarea {
+  display: flex;
+  resize: none;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+  width: 520px;
+  height: 49px;
+  border: 1px solid blue;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.inputContainerDescription textarea {
+  resize: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+  width: 520px;
+  height: 200px;
+  border: 1px solid blue;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  margin-top: 8px;
+}
+
+
+form a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: blue;
+}
+
+.container button[type=submit] {
+  width: 520px;
+  height: 48px;
+  background: blue;
+  border-radius: 12px;
+  color: white;
+  border: none;
+  font-family: 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 1rem;
+}
+
+.container button[type=submit]:hover {
+  cursor: pointer;
+  background: black;
+  color: blue;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px
+}
+
+.footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.createAccount {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: blue;
+}
+
+.logoImg {
+  max-width: 600px;
+  max-height: 550px;
+  width: auto;
+  height: auto;
+}
+
+.footer a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: blue;
+}
