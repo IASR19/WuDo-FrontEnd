@@ -47,9 +47,10 @@ form {
   padding: 16px;
   width: 520px;
   height: 49px;
-  border: 1px solid blue;
+  border: 1px solid var(--blue);
   border-radius: 12px;
   margin-bottom: 12px;
+
 }
 
 form a {
@@ -58,17 +59,17 @@ form a {
   line-height: 19px;
   padding-top: 16px;
   padding-bottom: 16px;
-  color: black;
+  color: var(--blue);
 }
 
 .container button[type=submit] {
   width: 520px;
   height: 48px;
-  background: var(--purple);
+  background: var(--blue);
   border-radius: 12px;
-  color: blue;
-  border: none;
-  font-family: 'Arial', sans-serif;
+  color: var(--white);
+  border: 1px solid transparent;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -83,8 +84,9 @@ form a {
 
 .container button[type=submit]:hover {
   cursor: pointer;
-  background: blue;
-  color: black;
+  background: var(--white);
+  color: var(--blue);
+  border: 1px solid var(--blue);
 }
 
 .footer {
@@ -106,12 +108,12 @@ form a {
   font-size: 16px;
   line-height: 19px;
   text-decoration-line: underline;
-  color: black;
+  color: var(--blue);
 }
 
 .logoImg {
-  max-width: 500px;
-  max-height: 450px;
+  max-width: 400px;
+  max-height: 350px;
   width: auto;
   height: auto;
 }

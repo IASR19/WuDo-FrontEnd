@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
 import { Link } from "react-router-dom";
 import arrowImg from "../../assets/arrow.svg";
-import logoImg from "../../assets/dashboard.png";
+import logoImg from "../../assets/WuDo-logo.jpeg";
 import { auth } from "../../services/firebaseConfig";
 import "./styles.css";
 
